@@ -21,6 +21,7 @@
     "**/messages/en.d.json.ts",
     "**/coverage/**",
     "**/report/**",
+    "**/reports/**",
     "**/playwright-report/**",
     "**/test-results/**",
     "**/.stryker-tmp/**",
@@ -108,6 +109,7 @@
             "assertFunctionNames": ["expect", "expectDenied", "expectValidationFail", "fc.assert"]
           }
         ],
+        "typescript/no-unnecessary-type-assertion": "warn",
         "vitest/no-focused-tests": "error",
         "vitest/prefer-expect-resolves": "error",
         "vitest/require-mock-type-parameters": "off"
@@ -330,5 +332,5 @@
     "react": {
       "version": "19.0.0"
     }
-  }
+  },
 }
